@@ -6,11 +6,9 @@
   "rules": "",
   "scripts": {
     "dev": "nodemon src/index --exec babel-node",
-    "build": "babel src -d dist --source-maps",
-    "build-no-smaps": "webpack --config webpack.config.js",
-    "start": "node dist/index.js",
-    "lint": "build-lint \"src/**/*.js\"",
-    "lint-watch": "build-lint \"src/**/*.js\" -w"
+   
+    "start": "node dist/index.js"
+    
   },
   "keywords": [],
   "author": "Francisco Inoque from SavanaPoint",
